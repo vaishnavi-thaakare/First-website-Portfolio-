@@ -10,6 +10,7 @@ font-family: 'Zen Antique', serif;
 :root{
     
     --third-color:#F87171;
+    --off-white :#D1D5DB;
     
 
 }
@@ -21,7 +22,7 @@ font-family: 'Zen Antique', serif;
     background-color: #C4B5FD;
 }
 .center-container{
-    max-width:600px;
+    max-width:700px;
     margin:auto;
     
 }
@@ -75,6 +76,7 @@ font-family: 'Zen Antique', serif;
     background-color:var(--third-color);
     color:white;
     border-bottom-left-radius: 0.5rem;
+    padding: 0.5rem 0rem;
 }
 .navigation .link{
     color: white;
@@ -93,7 +95,16 @@ hr{
 
 /* section */
 .section{
-    background-color: #EC4899;
+    padding: 1rem 1rem;
+
+}
+.ow{
+    background-color:var(--off-white);
+   
+}
+.section h3{
+    text-align: center;
+    padding:0.5rem 0rem;
 }
 /* footer */
 .footer{
@@ -110,4 +121,7 @@ hr{
 }
 .footer  .social-link{
     text-align: right;
+}
+.header .heading-title{
+    color:var(--third-color)
 }
