@@ -1,0 +1,65 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,700;0,900;1,700&family=Source+Sans+Pro:wght@600&family=Zen+Antique&display=swap');
+body{
+   
+/* font-family: 'Source Sans Pro', sans-serif; */
+font-family: 'Zen Antique', serif;
+
+
+}
+:root{
+    --primary-color:#EC4899;
+    --secondary-color:#C4B5FD;
+
+}
+
+
+
+.container{
+    padding:0rem 2rem;
+    background-color: #C4B5FD;
+}
+.center-container{
+    max-width:600px;
+    margin:auto;
+    
+}
+.heading{
+    text-align: center;
+}
+/* link */
+.link{
+    text-decoration: none;
+    padding: 1rem 2rem;
+    margin:1rem 1rem;
+}
+.link h3{
+    text-align: center;
+    margin: 0rem;
+    padding: 0rem;
+}
+.link-primary{
+    color:aliceblue;
+    background-color: blueviolet;
+    border-radius: 0.5rem;
+}
+.link-secondary{
+    color:blueviolet;
+    border-radius: 0.5rem;
+    border: 2px solid blueviolet;
+    
+}
+/* list */
+.list{
+    list-style: none;
+    display:inline;
+    
+    
+}
+
+
+
+/* section */
+.section{
+    background-color: #EC4899;
+}
