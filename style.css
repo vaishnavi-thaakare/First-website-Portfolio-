@@ -8,8 +8,9 @@ font-family: 'Zen Antique', serif;
 
 }
 :root{
-    --primary-color:#EC4899;
-    --secondary-color:#C4B5FD;
+    
+    --third-color:#F87171;
+    
 
 }
 
@@ -30,14 +31,10 @@ font-family: 'Zen Antique', serif;
 /* link */
 .link{
     text-decoration: none;
-    padding: 1rem 2rem;
-    margin:1rem 1rem;
+    padding: 1rem 1rem;
+    /* margin:1rem 1rem; */
 }
-.link h3{
-    text-align: center;
-    margin: 0rem;
-    padding: 0rem;
-}
+
 .link-primary{
     color:aliceblue;
     background-color: blueviolet;
@@ -49,17 +46,68 @@ font-family: 'Zen Antique', serif;
     border: 2px solid blueviolet;
     
 }
+
 /* list */
 .list{
-    list-style: none;
+    padding: 1rem 1rem;
+}
+.non-bullet{
+    list-style: none;   
+}
+.list-inline{
     display:inline;
-    
-    
+}
+ /* header */
+ .header{
+     display:block;
+     max-width:600px;
+     margin:auto
+ }
+ .header-heading{
+     text-align: center;
+ }
+
+/* navigation */
+.nav-pills{
+    text-align: right;
+}
+.navigation{
+    background-color:var(--third-color);
+    color:white;
+    border-bottom-left-radius: 0.5rem;
+}
+.navigation .link{
+    color: white;
+}
+.navigation .link-active{
+    font-weight: bold;
 }
 
+
+
+
+hr{
+    margin: 2rem 0rem;
+}
 
 
 /* section */
 .section{
     background-color: #EC4899;
+}
+/* footer */
+.footer{
+    background-color: var(--third-color);
+    border-top-right-radius: 0.5rem;
+}
+.footer-heading{
+    font-size: large;
+    font-weight: bold;
+    color:white;
+}
+.footer .link{
+    color:white
+}
+.footer  .social-link{
+    text-align: right;
 }
